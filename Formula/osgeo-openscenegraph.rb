@@ -34,12 +34,12 @@ class OsgeoOpenscenegraph < Formula
 
   head "https://github.com/openscenegraph/OpenSceneGraph.git", :branch => "master"
 
-  bottle do
-    root_url "https://bottle.download.osgeo.org"
-    sha256 "dc93f928689f846af65943a1a62b1381528c9429e05f8a43489a589aceddfd3f" => :catalina
-    sha256 "dc93f928689f846af65943a1a62b1381528c9429e05f8a43489a589aceddfd3f" => :mojave
-    sha256 "dc93f928689f846af65943a1a62b1381528c9429e05f8a43489a589aceddfd3f" => :high_sierra
-  end
+  # bottle do
+  #   root_url "https://bottle.download.osgeo.org"
+  #   sha256 "dc93f928689f846af65943a1a62b1381528c9429e05f8a43489a589aceddfd3f" => :catalina
+  #   sha256 "dc93f928689f846af65943a1a62b1381528c9429e05f8a43489a589aceddfd3f" => :mojave
+  #   sha256 "dc93f928689f846af65943a1a62b1381528c9429e05f8a43489a589aceddfd3f" => :high_sierra
+  # end
 
   # keg_only
   # we will verify that other versions are not linked

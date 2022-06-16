@@ -20,10 +20,10 @@ class QcaQtAT57 < Formula
     end
   end
 
-  bottle do
-    root_url "https://osgeo4mac.s3.amazonaws.com/bottles"
-    sha256 "f478153f18c3640a42d0dbe22495e194d2ddeb8c55ab8d67d08a9b850a4b9ed3" => :sierra
-  end
+  # bottle do
+  #   root_url "https://osgeo4mac.s3.amazonaws.com/bottles"
+  #   sha256 "f478153f18c3640a42d0dbe22495e194d2ddeb8c55ab8d67d08a9b850a4b9ed3" => :sierra
+  # end
 
   keg_only "Qt5 is keg-only"
 
